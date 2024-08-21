@@ -1,6 +1,7 @@
-import React from 'react';  // Removed useState since it's not used
+
+import React from 'react'; 
 import { BsArrowLeft } from 'react-icons/bs';
-import Fade from 'react-reveal/Fade';
+import { Fade } from 'react-awesome-reveal';
 import { Link, useParams } from 'react-router-dom';
 import useFetch from '../hooks/useFetch';
 
@@ -10,7 +11,6 @@ const ProductDetailScreen = () => {
 
     const product = data.find(item => item.title === title);
 
-    // Google Form URL
     const googleFormUrl = "https://docs.google.com/forms/d/e/1FAIpQLSeWMnag7FtT4KzUvjAmJTVMSkL3vu0iEkTptdw_WLx-nhNfPw/viewform";
 
     return (
@@ -19,12 +19,12 @@ const ProductDetailScreen = () => {
                 {product && (
                     <div className="p-6 box-border grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-10">
                         <div>
-                            <Fade left>
+                            <Fade direction="left">
                                 <img className="w-full h-full mx-auto object-cover rounded-lg" src={product.image} alt="coverimg" />
                             </Fade>
                         </div>
                         <div className="flex flex-col justify-center h-full">
-                            <Fade left>
+                            <Fade direction="left">
                                 <div className="border-b border-gray-400 pb-4">
                                     <h1 className="poppins text-gray-800 text-3xl">{product.title}</h1>
                                     <p className=" text-gray-400 my-4">{product.description}</p>
@@ -67,5 +67,4 @@ const ProductDetailScreen = () => {
 }
 
 export default ProductDetailScreen;
-
 

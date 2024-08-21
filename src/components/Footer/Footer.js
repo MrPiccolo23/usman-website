@@ -1,14 +1,14 @@
 
+
 import React, { useEffect, useState } from 'react';
-import Fade from 'react-reveal/Fade';
+import { Fade } from 'react-awesome-reveal';
 import NavBrand from '../Navbar/NavBrand';
-import { Link } from 'react-router-dom'; // Import Link for routing
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
     const [services, setServices] = useState([]);
 
     useEffect(() => {
-        // Fetch the services.json from the public folder
         fetch('/database/services.json')
             .then(response => response.json())
             .then(data => setServices(data))
@@ -24,7 +24,7 @@ const Footer = () => {
     ];
 
     return (
-        <Fade left>
+        <Fade>
             <footer className="text-gray-600 poppins bg-gray-100">
                 <div className="max-w-screen-xl px-5 py-24 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
                     <div className="w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left">
@@ -34,7 +34,6 @@ const Footer = () => {
                         <div className="lg:w-1/4 md:w-1/2 w-full px-4">
                             <h2 className="poppins text-gray-900 text-base mb-3 font-semibold">Address</h2>
                             <nav className="list-none mb-10 flex flex-col space-y-2">
-                                {/* Address */}
                                 <p className="text-sm whitespace-pre-line">
                                     {footerLink[0].text}
                                 </p>
@@ -43,7 +42,6 @@ const Footer = () => {
                         <div className="lg:w-1/4 md:w-1/2 w-full px-4">
                             <h2 className="poppins text-gray-900 text-base mb-3 font-semibold">Services</h2>
                             <nav className="list-none mb-10 flex flex-col space-y-2">
-                                {/* Services */}
                                 {services.map(service => (
                                     <Link 
                                         to={`/services/${encodeURIComponent(service.title)}`} 
@@ -58,7 +56,6 @@ const Footer = () => {
                         <div className="lg:w-1/4 md:w-1/2 w-full px-4">
                             <h2 className="poppins text-gray-900 text-base mb-3 font-semibold">Contact</h2>
                             <nav className="list-none mb-10 flex flex-col space-y-2">
-                                {/* Contact */}
                                 <a 
                                     href="mailto:info@sthelenspharmacy.co.uk" 
                                     className="text-sm hover:underline"

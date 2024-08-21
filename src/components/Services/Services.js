@@ -1,5 +1,6 @@
+
 import React from 'react';
-import Bounce from 'react-reveal/Bounce';
+import { Bounce } from 'react-awesome-reveal';
 import "swiper/components/navigation/navigation.min.css";
 import "swiper/components/pagination/pagination.min.css";
 import SwiperCore, { Autoplay, Navigation, Pagination } from 'swiper/core';
@@ -10,16 +11,12 @@ import Heading from '../Heading';
 import Service from './Service';
 SwiperCore.use([Navigation, Pagination, Autoplay]);
 
-
 const Services = () => {
     const [data] = useFetch('services');
 
     return (
         <section className="max-w-screen-xl mx-auto px-6 py-6 pb-24">
-            {/* heading  */}
             <Heading title="Services" />
-
-            {/* services  */}
             <Swiper
                 className="mySwiper py-12"
                 autoplay={{
@@ -45,7 +42,7 @@ const Services = () => {
             >
                 {data.map(service => (
                     <SwiperSlide key={service.id}>
-                        <Bounce left>
+                        <Bounce>
                             <Service  {...service} />
                         </Bounce>
                     </SwiperSlide>
@@ -55,4 +52,4 @@ const Services = () => {
     )
 }
 
-export default Services
+export default Services;

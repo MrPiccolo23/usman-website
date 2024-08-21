@@ -1,6 +1,8 @@
+
+
 import React, { useState } from 'react';
 import { HiMenuAlt3 } from 'react-icons/hi';
-import Fade from 'react-reveal/Fade';
+import { Fade } from 'react-awesome-reveal';
 import { NavLink } from 'react-router-dom';
 import NavBrand from './NavBrand';
 
@@ -14,12 +16,10 @@ const Navbar = () => {
         { id: 3, text: 'Contact', to: '/contact' },
     ];
 
-    // Handle click 
     const handleClick = () => {
         setMobileNav(!mobileNav);
     };
 
-    // Header change function 
     const onChangeHeader = () => {
         if (window.scrollY >= 50) {
             setChangeHeader(true);
@@ -28,18 +28,14 @@ const Navbar = () => {
         }
     };
 
-    // Change header by scrolling
     window.addEventListener('scroll', onChangeHeader);
 
     return (
         <header className={changeHeader ? "bg-white fixed z-50 top-0 left-0 w-full shadow-md transition duration-500" : "bg-transparent fixed z-50 top-0 left-0 w-full transition duration-500"}>
-            {/* Desktop nav */}
             <nav className="flex items-center max-w-screen-xl mx-auto px-6 py-3">
-                {/* Brand */}
                 <div className="flex flex-grow">
                     <NavBrand />
                 </div>
-                {/* Menu */}
                 <div className="hidden md:flex lg:flex space-x-8">
                     <ul className="flex items-center space-x-4">
                         {menu.map(item => (
@@ -48,16 +44,13 @@ const Navbar = () => {
                             </li>
                         ))}
                     </ul>
-                    {/* Removed AuthorizeUser */}
                 </div>
 
-                {/* Menu icon */}
                 <div className="block md:hidden lg:hidden">
                     <HiMenuAlt3 className="w-10 h-10 ring-purple-300 text-gray-700 border border-gray-400 focus:ring-4 cursor-pointer rounded-lg p-2 transform transition duration-200 hover:scale-110" onClick={handleClick} />
                 </div>
             </nav>
 
-            {/* Mobile nav */}
             {mobileNav && (
                 <Fade>
                     <nav className="bg-white shadow-lg mx-6 mt-2 p-4 rounded-lg border border-gray-300 py-4 block md:hidden lg:hidden">
@@ -70,8 +63,6 @@ const Navbar = () => {
                                 </li>
                             ))}
                         </ul>
-
-                        {/* Removed AuthorizeUserMobile */}
                     </nav>
                 </Fade>
             )}
