@@ -1,0 +1,17 @@
+[
+  {
+    "id": 1,
+    "username": "J. Smith - 2022 - St Helens Pharmacy",
+    "review": "Easy collection, very rare to wait more than a few minutes when collecting an electronic prescription"
+  },
+  {
+    "id": 2,
+    "username": "E. Tyrer - 2021 - Four Acre Chemist",
+    "review": "I have used this Pharmacy for 5 + years and never had any issue with prescriptions or any other service they provide. Lovely team!"
+  },
+  {
+    "id": 3,
+    "username": "C. McVittie - 2022 - Fishlocks Pharmacy",
+    "review": "Very helpful, friendly. Went out of their way to get me out of trouble when I mismanaged my drugs on a bank holiday and ran out. Highly recommended and a huge thanks to Fishlocks."
+  }
+]

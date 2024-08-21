@@ -1,0 +1,48 @@
+[
+  {
+    "id": 1,
+    "title": "Medical questionnaire",
+    "description": "Answer questions about your health by filling out a questionnaire.",
+    "icon": "../assets/services/services.png",
+    "image": "../assets/services/image/service-1.jpg",
+    "contactno": "1-800-238-6279",
+    "email": "phamipharma@gmail.com",
+    "facebook": "https://www.facebook.com",
+    "instagram": "https://www.instagram.com"
+  },
+  {
+    "id": 2,
+    "title": "Pharmacist review",
+    "description": "Our pharmacist will provide a treatment plan within 24 hours and, if suitable, issue a prescription.",
+    "icon": "../assets/services/services1.png",
+    "image": "../assets/services/image/service-2.jpg"
+  },
+  {
+    "id": 3,
+    "title": "Discreet collection & delivery",
+    "description": "Collect your treatment with confidence from our pharamcies or get them delivered directly to your door. ",
+    "icon": "../assets/services/services2.png",
+    "image": "../assets/services/image/service-3.jpg"
+  },
+  {
+    "id": 4,
+    "title": "Weight loss support",
+    "description": "Pharmacist follow-ups & additional weight loss support package (designed by our in-house nutritionist and our pharmacist).",
+    "icon": "../assets/services/services3.png",
+    "image": "../assets/services/image/service-4.jpg"
+  },
+  {
+    "id": 5,
+    "title": "Terms & conditions",
+    "description": "The provider portal has information and tools to complete real-time transactions along with administrative and financial tools. You can: ipsum dolor sit amet consectetur adipisicing elit. Fuga quisquam ducimus quia! Et excepturi ut voluptatem. Fugit, perferendis expedita dolorum non veritatis repudiandae minima recusandae maxime corrupti a sunt dicta accusamus exercitationem molestias totam, et voluptatem laboriosam ducimus quis dignissimos, accusantium in. Corrupti, aperiam! Hic facilis inventore quaerat consectetur praesentium eius, itaque, tempora laborum, perferendis eos enim qui dolore quisquam libero porro vero quasi? Quam quia laborum earum quisquam cum officiis, dicta voluptate perspiciatis dolores molestiae eum maxime aliquid iste sunt hic, facilis recusandae ducimus. Neque similique, vero ea possimus eos totam aliquid repudiandae eum enim quasi harum, corporis sequi!",
+    "icon": "../assets/services/services4.png",
+    "image": "../assets/services/image/service-5.jpg"
+  },
+  {
+    "id": 6,
+    "title": "Privacy & Cookies",
+    "description": "URAC is an independent, non-profit health care accrediting organization dedicated to promoting health care quality through accreditation, education, and measurement.Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga quisquam ducimus quia! Et excepturi ut voluptatem. Fugit, perferendis expedita dolorum non veritatis repudiandae minima recusandae maxime corrupti a sunt dicta accusamus exercitationem molestias totam, et voluptatem laboriosam ducimus quis dignissimos, accusantium in. Corrupti, aperiam! Hic facilis inventore quaerat consectetur praesentium eius, itaque, tempora laborum, perferendis eos enim qui dolore quisquam libero porro vero quasi? Quam quia laborum earum quisquam cum officiis, dicta voluptate perspiciatis dolores molestiae eum maxime aliquid iste sunt hic, facilis recusandae ducimus. Neque similique, vero ea possimus eos totam aliquid repudiandae eum enim quasi harum, corporis sequi! ",
+    "icon": "../assets/services/services5.png",
+    "image": "../assets/services/image/service-6.jpg"
+  }
+]
