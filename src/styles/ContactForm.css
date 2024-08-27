@@ -1,0 +1,15 @@
+/* src/components/styles/ContactForm.css */
+
+.custom-input:focus, 
+.custom-input:focus-visible {
+    border-color: #9b59b6 !important; /* Purple border color */
+    box-shadow: 0 0 0 4px rgba(155, 89, 182, 0.5) !important; /* Purple shadow */
+    outline: none !important; /* Remove default outline */
+}
+
+/* General input style that includes border color */
+.custom-input {
+    border: 1px solid #9b59b6; /* Apply purple border color initially */
+    transition: box-shadow 0.3s ease-in-out, border-color 0.3s ease-in-out;
+}
+
