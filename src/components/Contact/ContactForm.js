@@ -145,7 +145,7 @@ const ContactForm = () => {
             <Bounce>
                 <div className="mt-6">
                     <textarea 
-                        placeholder="Your Message" 
+                        placeholder="Your Messages" 
                         name="message" 
                         className={inputClass + " h-36 resize-none"} 
                         value={formData.message} 
