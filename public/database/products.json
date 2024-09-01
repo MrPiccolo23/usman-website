@@ -4,12 +4,12 @@
     "title": "Mounjaro",
     "description": "Mounjaro for weight loss, manufactured by Eli Lilly, is a once-weekly injection that contains the active ingredient tirzepatide. Mounjaro makes you feel fuller between meals and lowers your appetite. It is licensed and approved for weight loss in the UK and is available on prescription.",
     "priceOptions": [
-      { "dosage": "2.5mg", "price": 166.00 },
-      { "dosage": "5mg", "price": 166.00 },
-      { "dosage": "7.5mg", "price": 193.00 },
-      { "dosage": "10mg", "price": 193.00 },
-      { "dosage": "12.5mg", "price": 220.00 },
-      { "dosage": "15mg", "price": 220.00 }
+      { "dosage": "2.5mg/0.6ml", "price": 155.00 },
+      { "dosage": "5mg/0.6ml", "price": 155.00 },
+      { "dosage": "7.5mg/0.6ml", "price": 175.00 },
+      { "dosage": "10mg/0.6ml", "price": 175.00 },
+      { "dosage": "12.5mg/0.6ml", "price": 189.00 },
+      { "dosage": "15mg/0.6ml", "price": 189.00 }
     ],
     "image": "../assets/products/product-2.png",
     "inStock": true
@@ -19,9 +19,9 @@
     "title": "Wegovy",
     "description": "Wegovy is a weight loss injection taken once a week to help lose weight and maintain weight loss. It contains the active ingredient semaglutide, which mimics a hormone usually released after eating, helping you to feel fuller while following a diet and exercise plan. 1 single pen of Wegovy contains 4 weekly doses that should be taken at the same time and day each week.",
     "priceOptions": [
-      { "dosage": "0.25mg", "price": 169.00 },
-      { "dosage": "0.5mg", "price": 169.00 },
-      { "dosage": "1mg", "price": 169.00 },
+      { "dosage": "0.25mg", "price": 132.00 },
+      { "dosage": "0.5mg", "price": 132.00 },
+      { "dosage": "1mg", "price": 132.00 },
       { "dosage": "1.7mg", "price": 224.00 },
       { "dosage": "2.4mg", "price": 269.00 }
     ],
@@ -33,7 +33,7 @@
     "title": "Mysimba",
     "description": "Mysimba weight loss tablets are a medication used to help people who are overweight lose weight. These tablets are available in the UK and you can request Mysimba online through services like St Helens Online Pharmacy.",
     "priceOptions": [
-      { "dosage": "8mg/90mg", "price": 131.00 }
+      { "dosage": "8mg/90mg", "price": 99.00 }
     ],
     "image": "../assets/products/product-6.png",
     "inStock": true
@@ -55,7 +55,7 @@
     "priceOptions": [
       { "dosage": "Out of Stock", "price": 0 }
     ],
-    "image": "../assets/products/product-5.png",
+    "image": "../assets/products/product-7.jpg",
     "inStock": false
   }
 ]
