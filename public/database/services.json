@@ -30,15 +30,15 @@
   {
     "id": 5,
     "title": "Terms & conditions",
-    "description": "The provider portal has information and tools to complete real-time transactions along with administrative and financial tools. You can: ipsum dolor sit amet consectetur adipisicing elit. Fuga quisquam ducimus quia! Et excepturi ut voluptatem. Fugit, perferendis expedita dolorum non veritatis repudiandae minima recusandae maxime corrupti a sunt dicta accusamus exercitationem molestias totam, et voluptatem laboriosam ducimus quis dignissimos, accusantium in. Corrupti, aperiam! Hic facilis inventore quaerat consectetur praesentium eius, itaque, tempora laborum, perferendis eos enim qui dolore quisquam libero porro vero quasi? Quam quia laborum earum quisquam cum officiis, dicta voluptate perspiciatis dolores molestiae eum maxime aliquid iste sunt hic, facilis recusandae ducimus. Neque similique, vero ea possimus eos totam aliquid repudiandae eum enim quasi harum, corporis sequi!",
+    "description": "",
     "icon": "../assets/services/services4.png",
-    "image": "../assets/services/image/service-5.jpg"
+    "image": ""
   },
   {
     "id": 6,
     "title": "Privacy & Cookies",
-    "description": "URAC is an independent, non-profit health care accrediting organization dedicated to promoting health care quality through accreditation, education, and measurement.Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga quisquam ducimus quia! Et excepturi ut voluptatem. Fugit, perferendis expedita dolorum non veritatis repudiandae minima recusandae maxime corrupti a sunt dicta accusamus exercitationem molestias totam, et voluptatem laboriosam ducimus quis dignissimos, accusantium in. Corrupti, aperiam! Hic facilis inventore quaerat consectetur praesentium eius, itaque, tempora laborum, perferendis eos enim qui dolore quisquam libero porro vero quasi? Quam quia laborum earum quisquam cum officiis, dicta voluptate perspiciatis dolores molestiae eum maxime aliquid iste sunt hic, facilis recusandae ducimus. Neque similique, vero ea possimus eos totam aliquid repudiandae eum enim quasi harum, corporis sequi! ",
+    "description": " ",
     "icon": "../assets/services/services5.png",
-    "image": "../assets/services/image/service-6.jpg"
+    "image": ""
   }
 ]

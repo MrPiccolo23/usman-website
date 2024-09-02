@@ -1,39 +1,3 @@
-
-// import React from 'react';
-// import { BsArrowLeft } from 'react-icons/bs';
-// import { Fade } from 'react-awesome-reveal';
-// import { Link, useParams } from 'react-router-dom';
-// import useFetch from '../hooks/useFetch';
-
-// const ServicesDetailScreen = () => {
-//     const { title } = useParams();
-//     const [data] = useFetch('services');
-
-//     const decodedTitle = decodeURIComponent(title);
-
-//     return (
-//         <section className="max-w-screen-xl py-24 mx-auto px-6">
-//             {data.filter(item => item.title === decodedTitle).map(service => (
-//                 <div key={service.id} className="shadow-lg p-6 box-border">
-//                     <Fade direction="left">
-//                         <img className="w-full h-96 mx-auto object-cover rounded-lg" src={service.image} alt="coverimg" />
-//                     </Fade>
-//                     <Fade direction="left">
-//                         <div className="flex flex-col md:flex-row lg:flex-row  justify-center items-center space-x-3 py-4">
-//                             <img className="w-12 mt-4" src={service.icon} alt="icon" />
-//                             <h1 className="text-gray-600 poppins text-3xl text-center pt-3">{service.title}</h1>
-//                         </div>
-//                         <p className="text-gray-500 text-justify">{service.description}</p>
-//                     </Fade>
-//                     <Link to="/" className="pt-4 text-purple-500 text-sm hover:underline flex items-center space-x-3"><BsArrowLeft /> <span>Back</span></Link>
-//                 </div>
-//             ))}
-//         </section>
-//     )
-// }
-
-// export default ServicesDetailScreen;
-
 import React, { useState } from 'react';
 import { BsArrowLeft, BsChevronDown, BsChevronUp } from 'react-icons/bs';
 import { Fade } from 'react-awesome-reveal';
@@ -64,6 +28,118 @@ const ServicesDetailScreen = () => {
     };
 
     const decodedTitle = decodeURIComponent(title);
+
+    const privacyPolicyContent = [
+        {
+            question: "Purpose of the Privacy Policy",
+            answer: `This Privacy Policy explains how we collect, use, and protect your personal data to provide you with the best and most appropriate care and advice. We are committed to safeguarding your privacy and ensuring that your personal data is kept secure.`
+        },
+        {
+            question: "Data Collection",
+            answer: `
+                <ul className="list-disc pl-5">
+                    <li><strong>Individual Data:</strong> We collect personal data that relates to your identity, such as your first name, middle name, and last name; title; date of birth; gender; and contact details, including your billing address, delivery address, email address, and telephone numbers.</li>
+                    <li><strong>Contact Information:</strong> We collect your full name, email address, phone number, and any messages you choose to send us through our online forms and contact page.</li>
+                    <li><strong>Health Data:</strong> We collect detailed health-related information through our online forms and questionnaires, including current and past medications, medical history, allergies, and pregnancy status.</li>
+                    <li><strong>Treatment Preferences:</strong> We collect your preferences for treatment options and specific dosages of medications.</li>
+                    <li><strong>Information Technology Data:</strong> We may collect technical information such as your IP address, browser type and version, operating system, platform, and general traffic data.</li>
+                    <li><strong>Economic and Financial Data:</strong> We may collect personal data related to your finances, such as your payment card details, for processing payments and preventing fraud.</li>
+                </ul>`
+        },
+        {
+            question: "How We Use Your Data",
+            answer: `
+                The data we collect is used to:
+                <ul className="list-disc pl-5">
+                    <li>Provide you with personalised care and treatment options.</li>
+                    <li>Communicate with your GP, where necessary, to ensure you receive the best possible care.</li>
+                    <li>Improve our services based on anonymised data trends.</li>
+                    <li>Manage our relationship with you, including responding to inquiries and processing orders.</li>
+                    <li>Ensure the security and functionality of our website.</li>
+                </ul>`
+        },
+        {
+            question: "Who Can Access Your Personal Data",
+            answer: `
+                We only share your personal data with trusted parties when it is necessary to carry out our business and provide you with our services. These include:
+                <ul className="list-disc pl-5">
+                    <li><strong>Our Group Companies and Trusted Partners:</strong> We may share your data with our group companies and affiliates, or third-party service providers, who process data on our behalf.</li>
+                    <li><strong>Healthcare Professionals:</strong> This includes doctors, pharmacists, or other healthcare providers involved in your treatment.</li>
+                    <li><strong>Support Staff:</strong> Members of our administrative team involved in delivering your care.</li>
+                    <li><strong>Delivery Services:</strong> Companies like Royal Mail or other couriers that handle the delivery of prescriptions or other items to you.</li>
+                    <li><strong>Your Emergency Contacts:</strong> Individuals you have asked us to communicate with, such as your next of kin or carer.</li>
+                    <li><strong>NHS and Government Bodies:</strong> We may need to share your data with NHS organisations or government bodies such as NHS England, the Department of Health, and other regulatory authorities.</li>
+                    <li><strong>Law Enforcement and Regulatory Authorities:</strong> We may provide your data to the police or other authorities when it is necessary to prevent or investigate a crime.</li>
+                    <li><strong>Credit Reference Agencies:</strong> We might share your financial data with credit or debit card referencing agencies for processing payments.</li>
+                    <li><strong>Analytics and Media Platforms:</strong> We may use third-party providers to help us understand how our services are used and to improve our offerings.</li>
+                    <li><strong>Senior and IT Staff:</strong> Senior staff and IT personnel within our organisation may access your data if it is essential for performing their duties.</li>
+                </ul>`
+        },
+        {
+            question: "Data Retention",
+            answer: `We retain your personal data only for as long as necessary to fulfil the purposes outlined in this Privacy Policy. Once the data is no longer needed, we securely delete or anonymise it.`
+        },
+        {
+            question: "Your Rights Regarding Your Data",
+            answer: `
+                Under data protection laws, you have several rights regarding your personal data, including:
+                <ul className="list-disc pl-5">
+                    <li><strong>The right to access:</strong> You can request a copy of the personal data we hold about you.</li>
+                    <li><strong>The right to rectification:</strong> You can ask us to correct any inaccuracies in your data.</li>
+                    <li><strong>The right to erasure:</strong> You can request that we delete your data in certain circumstances.</li>
+                    <li><strong>The right to restrict processing:</strong> You can ask us to limit how we use your data.</li>
+                    <li><strong>The right to data portability:</strong> You can request that we transfer your data to another service provider.</li>
+                    <li><strong>The right to object:</strong> You can object to certain types of processing, such as direct marketing.</li>
+                </ul>`
+        },
+        {
+            question: "How We Protect Your Data",
+            answer: `We implement a range of security measures to protect your personal data from unauthorised access, use, or disclosure. This includes encryption, secure servers, and regular monitoring of our systems to prevent data breaches.`
+        },
+        {
+            question: "How to Contact Us",
+            answer: `
+                If you have any questions about this Privacy Policy or if you wish to exercise your rights, please fill out the form on our contact us page.`
+        },
+        {
+            question: "Updates to This Policy",
+            answer: `This Privacy Policy may be updated from time to time to reflect changes in our practices, legal requirements, or other factors. We encourage you to review this policy regularly. Any significant changes will be communicated through our website or directly to you where applicable.`
+        }
+    ];
+
+    const cookiesPolicyContent = [
+        {
+            question: "What Are Cookies?",
+            answer: `Cookies are small text files that are stored on your device when you visit websites. These files help websites remember information about your visit, such as your preferences or login details, making your experience smoother and more personalised. Cookies can also help website owners understand how visitors use their site.`
+        },
+        {
+            question: "Our Current Use of Cookies",
+            answer: `At the moment, we are not using any cookies on this website. However, we may use cookies in the future to improve your experience or to help us understand how our website is used.`
+        },
+        {
+            question: "Types of Cookies We Might Use in the Future",
+            answer: `
+                <ul className="list-disc pl-5">
+                    <li><strong>Necessary Cookies:</strong> Essential for the website to function properly, enabling core features like page navigation and access to secure areas of the site.</li>
+                    <li><strong>Preferences Cookies:</strong> Allow the website to remember choices you have made in the past, like your preferred language or region.</li>
+                    <li><strong>Statistics Cookies:</strong> Help website owners understand how visitors interact with their website by collecting and reporting information anonymously.</li>
+                    <li><strong>Marketing Cookies:</strong> Track your online activity to help advertisers deliver more relevant ads or to limit how often you see an ad.</li>
+                    <li><strong>Unclassified Cookies:</strong> Cookies that have not yet been classified into a category. We may use these in the future as we develop our website further.</li>
+                </ul>`
+        },
+        {
+            question: "Checking the Cookies We Use",
+            answer: `You can easily check what cookies we use by using the developer tools in your web browser:
+                <ul className="list-disc pl-5">
+                    <li><strong>Option 1:</strong> Press F12 on your keyboard, navigate to the Application tab, and click on Cookies under Storage.</li>
+                    <li><strong>Option 2:</strong> Right-click anywhere on the page and select Inspect. Then, go to the Application tab and click on Cookies under Storage.</li>
+                </ul>`
+        },
+        {
+            question: "Links to Third-Party Sites",
+            answer: `Please note that this Cookies Policy only applies to our website. If you click on a link to another website, you should read their cookies policy as well, as we do not control how other websites use cookies.`
+        }
+    ];
 
     return (
         <section className="max-w-screen-xl py-24 mx-auto px-6">
@@ -192,8 +268,9 @@ const ServicesDetailScreen = () => {
                                 </p>
                             </div>
                         )}
-                                          {/* Tables for 'Weight loss support' */}
-                                          {service.title === 'Weight loss support' && (
+
+                        {/* Tables for 'Weight loss support' */}
+                        {service.title === 'Weight loss support' && (
                             <div className="mt-8">
                                 <h2 className="text-2xl font-semibold text-center mb-4">Mounjaro® vs other weight loss treatments</h2>
                                 <div className="overflow-x-auto">
@@ -321,7 +398,7 @@ const ServicesDetailScreen = () => {
                                         },
                                         {
                                             question: "How do weight loss injections work?",
-                                            answer: `Mounjaro®, Wegovy® and Victoza®(Liraglutide) are the weight loss injections (pens) that we offer. They work by suppressing your appetite, which means they make you feel less hungry and fuller quicker.`
+                                            answer: `Mounjaro®, Wegovy and Victoza®(Liraglutide) are the weight loss injections (pens) that we offer. They work by suppressing your appetite, which means they make you feel less hungry and fuller quicker.`
                                         },
                                         {
                                             question: "How do weight loss pills work?",
@@ -363,6 +440,37 @@ const ServicesDetailScreen = () => {
                             </div>
                         )}
 
+                        {/* Privacy & Cookies section */}
+                        {service.title === 'Privacy & Cookies' && (
+                            <div className="mt-8">
+                                <h2 className="text-2xl font-semibold text-center mb-4">Privacy Policy</h2>
+                                <div className="border border-gray-200 rounded-lg">
+                                    {privacyPolicyContent.map((item, index) => (
+                                        <AccordionItem
+                                            key={index}
+                                            question={item.question}
+                                            answer={<span dangerouslySetInnerHTML={{ __html: item.answer }} />}
+                                            isOpen={openIndex === index}
+                                            onClick={() => handleToggle(index)}
+                                        />
+                                    ))}
+                                </div>
+
+                                <h2 className="text-2xl font-semibold text-center mb-4 mt-8">Cookies Policy</h2>
+                                <div className="border border-gray-200 rounded-lg">
+                                    {cookiesPolicyContent.map((item, index) => (
+                                        <AccordionItem
+                                            key={index}
+                                            question={item.question}
+                                            answer={<span dangerouslySetInnerHTML={{ __html: item.answer }} />}
+                                            isOpen={openIndex === index}
+                                            onClick={() => handleToggle(index)}
+                                        />
+                                    ))}
+                                </div>
+                            </div>
+                        )}
+
                     </Fade>
                     <Link to="/" className="pt-4 text-purple-500 text-sm hover:underline flex items-center space-x-3"><BsArrowLeft /> <span>Back</span></Link>
                 </div>
@@ -372,6 +480,7 @@ const ServicesDetailScreen = () => {
 };
 
 export default ServicesDetailScreen;
+
 
 
 
