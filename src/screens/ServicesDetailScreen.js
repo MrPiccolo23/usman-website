@@ -272,7 +272,7 @@ const ServicesDetailScreen = () => {
                         {/* Tables for 'Weight loss support' */}
                         {service.title === 'Weight loss support' && (
                             <div className="mt-8">
-                                <h2 className="text-2xl font-semibold text-center mb-4">Mounjaro® vs other weight loss treatments</h2>
+                                <h2 className="text-2xl font-semibold text-center mb-4">Weight loss treatments table</h2>
                                 <div className="overflow-x-auto">
                                     <table className="min-w-full bg-white border border-gray-200">
                                         <thead>
