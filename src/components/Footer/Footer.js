@@ -1,5 +1,3 @@
-
-
 import React, { useEffect, useState } from 'react';
 import { Fade } from 'react-awesome-reveal';
 import NavBrand from '../Navbar/NavBrand';

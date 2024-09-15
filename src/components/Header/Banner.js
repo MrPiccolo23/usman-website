@@ -1,5 +1,4 @@
 
-
 import React from 'react';
 import { Fade } from 'react-awesome-reveal';
 import { useHistory } from 'react-router-dom';
@@ -23,7 +22,7 @@ const Banner = () => {
 
                 <Fade direction="right">
                     <div className="order-1 lg:order-2">
-                        <img src="../../../assets/banner/banner.avif" alt="banner" />
+                        <img src="../../../assets/banner/banner.webp" alt="banner" />
                     </div>
                 </Fade>
             </div>

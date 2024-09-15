@@ -11,7 +11,7 @@
       { "dosage": "12.5mg/0.6ml", "price": 189.00 },
       { "dosage": "15mg/0.6ml", "price": 189.00 }
     ],
-    "image": "../assets/products/product-2.png",
+    "image": "../assets/products/product-1.webp",
     "inStock": true
   },
   {
@@ -25,7 +25,7 @@
       { "dosage": "1.7mg", "price": 224.00 },
       { "dosage": "2.4mg", "price": 269.00 }
     ],
-    "image": "../assets/products/product-1.png",
+    "image": "../assets/products/product-2.webp",
     "inStock": true
   },
   {
@@ -35,7 +35,7 @@
     "priceOptions": [
       { "dosage": "8mg/90mg", "price": 99.00 }
     ],
-    "image": "../assets/products/product-6.png",
+    "image": "../assets/products/product-3.webp",
     "inStock": true
   },
   {
@@ -45,7 +45,7 @@
     "priceOptions": [
       { "dosage": "120mg", "price": 44.00 }
     ],
-    "image": "../assets/products/product-3.png",
+    "image": "../assets/products/product-4.webp",
     "inStock": true
   },
   {
@@ -55,7 +55,7 @@
     "priceOptions": [
       { "dosage": "Out of Stock", "price": 0 }
     ],
-    "image": "../assets/products/product-7.jpg",
+    "image": "../assets/products/product-5.webp",
     "inStock": false
   }
 ]
