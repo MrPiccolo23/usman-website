@@ -70,7 +70,6 @@
 
 import React from 'react'; 
 import { BsArrowLeft } from 'react-icons/bs';
-import { FaChevronDown, FaChevronUp } from 'react-icons/fa';
 import { Fade } from 'react-awesome-reveal';
 import { Link, useParams } from 'react-router-dom';
 import useFetch from '../hooks/useFetch';
