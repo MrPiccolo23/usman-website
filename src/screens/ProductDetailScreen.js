@@ -158,42 +158,8 @@ const ProductDetailScreen = () => {
                       Mounjaro® comes in different doses,{' '}
                       <a href="https://www.medicines.org.uk/emc/files/pil.15482.pdf" target="_blank" rel="noopener noreferrer" className="text-purple-500 underline">
                         starting with a 2.5 mg dose
-                      </a>. This increases gradually to help manage side effects. The dose is increased every four weeks, as follows:
+                      </a>. This increases gradually to help manage side effects.
                     </p>
-                    <table className="min-w-full bg-white border border-gray-200 mt-4">
-                      <thead>
-                        <tr className="bg-gray-100 text-center font-bold">
-                          <th className="px-6 py-3">Week</th>
-                          <th className="px-6 py-3">Dosage</th>
-                        </tr>
-                      </thead>
-                      <tbody>
-                        <tr>
-                          <td className="px-6 py-4">Weeks 1-4</td>
-                          <td className="px-6 py-4">2.5 mg weekly</td>
-                        </tr>
-                        <tr>
-                          <td className="px-6 py-4">Weeks 5-8</td>
-                          <td className="px-6 py-4">5 mg weekly</td>
-                        </tr>
-                        <tr>
-                          <td className="px-6 py-4">Weeks 9-12</td>
-                          <td className="px-6 py-4">7.5 mg weekly</td>
-                        </tr>
-                        <tr>
-                          <td className="px-6 py-4">Weeks 13-16</td>
-                          <td className="px-6 py-4">10 mg weekly</td>
-                        </tr>
-                        <tr>
-                          <td className="px-6 py-4">Weeks 17-20</td>
-                          <td className="px-6 py-4">12.5 mg weekly</td>
-                        </tr>
-                        <tr>
-                          <td className="px-6 py-4">Week 21 onwards</td>
-                          <td className="px-6 py-4">15 mg weekly</td>
-                        </tr>
-                      </tbody>
-                    </table>
                   </Accordion>
 
                   <Accordion title="4. How to use Mounjaro®">
@@ -231,7 +197,7 @@ const ProductDetailScreen = () => {
                       <li>Adults with a BMI of 27 or above who have weight-related health issues, such as heart disease, stroke, or sleep apnoea</li>
                     </ul>
                     <p>
-                      It should not be used if you’re allergic to any of the ingredients. Your doctor will assess whether Mounjaro® is safe for you, especially if you:
+                      It should not be used if you’re allergic to any of the ingredients. Your pharmacist will assess whether Mounjaro® is safe for you, especially if you:
                     </p>
                     <ul className="list-disc ml-6 mt-2">
                       <li>Have digestion problems</li>
