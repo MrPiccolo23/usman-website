@@ -66,7 +66,7 @@ const ServicesDetailScreen = () => {
                     <li><strong>Our Group Companies and Trusted Partners:</strong> We may share your data with our group companies and affiliates, or third-party service providers, who process data on our behalf.</li>
                     <li><strong>Healthcare Professionals:</strong> This includes doctors, pharmacists, or other healthcare providers involved in your treatment.</li>
                     <li><strong>Support Staff:</strong> Members of our administrative team involved in delivering your care.</li>
-                    <li><strong>Delivery Services:</strong> Companies like Royal Mail or other couriers that handle the delivery of prescriptions or other items to you.</li>
+                    <li><strong>Delivery Services:</strong> Couriers that handle the delivery of prescriptions or other items to you.</li>
                     <li><strong>Your Emergency Contacts:</strong> Individuals you have asked us to communicate with, such as your next of kin or carer.</li>
                     <li><strong>NHS and Government Bodies:</strong> We may need to share your data with NHS organisations or government bodies such as NHS England, the Department of Health, and other regulatory authorities.</li>
                     <li><strong>Law Enforcement and Regulatory Authorities:</strong> We may provide your data to the police or other authorities when it is necessary to prevent or investigate a crime.</li>
@@ -254,15 +254,11 @@ const ServicesDetailScreen = () => {
                                     </ul>
                                 </div>
                                 
-                                <h2 className="text-2xl font-semibold text-center mb-4">Royal Mail Delivery Services</h2>
+                                <h2 className="text-2xl font-semibold text-center mb-4">Delivery Services</h2>
                                 <p className="text-gray-500 text-justify">
+                                    We prefer you collect your weight loss medicine from one of our branches listed above. Click on link to the close’s pharmacy to you, for example ‘St Helens Pharmacy (130 Duke Street)’ it will open a new tab for the address. If you can’t collect, inform the pharmacist in your video consultation or visit the `Contact page` and fill in the form, one of our drivers will make the delivery.<br/> 
                                     Any deliveries are subject to you answering our health and weight loss questionnaire, having a consultation with our pharmacist, and confirmation of payment for your selected medicine.<br/><br/>
                                     
-                                    <strong>Next day delivery including refrigerated items (£3.50)</strong><br/>
-                                    Your delivery will arrive the next working day when you place your order before 3pm on Monday to Friday.<br/><br/>
-                                    
-                                    <strong>Next day express delivery including refrigerated products (£7.00)</strong><br/>
-                                    Your delivery will arrive the next day before 1pm when you place your order before 3pm Monday to Friday. This service includes Saturday delivery.<br/><br/>
                                     
                                     For refrigerated items, ensure someone is available to receive the delivery and ensure the item is placed in a refrigerator immediately. We cannot offer refunds for items that became unusable due to failed delivery attempts.
                                 </p>
@@ -367,14 +363,14 @@ const ServicesDetailScreen = () => {
                                             question: "Do I qualify for weight loss injections and pills?",
                                             answer: `
                                                 Weight loss treatments are made for people with high BMIs. Maintaining a healthy weight for you is important, and weight loss injections or pills may help you achieve this.<br><br>
-                                                Here at Online Doctor, we currently offer Mounjaro®, Wegovy®, Mysimba, Orlistat and Victoza®(Liraglutide).<br><br>
+                                                Here at Online Pharmacist, we currently offer Mounjaro®, Wegovy®, Mysimba, Orlistat and Victoza®(Liraglutide).<br><br>
                                                 <ul className="list-disc pl-5">
                                                     <li>Mounjaro®, Wegovy® and Victoza®(Liraglutide) are suitable for people with a BMI of over 30 (or 27-30 if you have a risk factor).</li>
                                                     <li>Orlistat and Mysimba can be prescribed for people with a BMI of over 30 (or 28 if you have a risk factor such as high blood pressure).</li>
                                                 </ul><br>
                                                 To check that you qualify for treatment, we'll ask about other medicines you're taking, and any conditions you have. The online questionnaire is completely confidential, and we'll use the information to ensure the treatment you have requested is safe to take.<br><br>
                                                 To get started simply head to our Products page, click on the view button to your preferred medicine then click on request treatment to start the questionnaire.<br><br>
-                                                After the questionnaire, our qualified pharmacist will contact you with a consultation by online video call or by phone.<br><br>
+                                                After the questionnaire, our qualified pharmacist will contact you with a consultation by online video call or by phone. The Pharmacist will always do a video consultation <br><br>
                                                 Before we can prescribe any weight loss medication for you:<br><br>
                                                 <ul className="list-disc pl-5">
                                                     <li>We'll need to check your ID and weight.</li>
@@ -409,7 +405,7 @@ const ServicesDetailScreen = () => {
                                             answer: `The goal with weight management should be to reach a healthy weight for your height and build, and to maintain it. Achieving sustainable results and staying at your goal weight is best done by making adjustments to your lifestyle, being more active and eating a balanced diet. However, it is possible that prescription weight loss treatments can help you reach your goal weight. If you have any concerns about sudden weight gain, you should see your GP for advice.`
                                         },
                                         {
-                                            question: "Doctor's weight loss advice?",
+                                            question: "Pharmacist's weight loss advice?",
                                             answer: `How you feel about your weight is very personal. Many people do not need to be concerned about their weight, as they aren’t in immediate danger of health issues.<br><br>
                                             Medically speaking, you are 'overweight' if you have a BMI of more than 25. So, you might be advised by your GP to make lifestyle changes to try and lose weight.<br><br>
                                             You can use this NHS tool to calculate your BMI.`

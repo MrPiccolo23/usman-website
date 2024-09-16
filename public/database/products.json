@@ -2,7 +2,7 @@
   {
     "id": 1,
     "title": "Mounjaro",
-    "description": "Mounjaro for weight loss, manufactured by Eli Lilly, is a once-weekly injection that contains the active ingredient tirzepatide. Mounjaro makes you feel fuller between meals and lowers your appetite. It is licensed and approved for weight loss in the UK and is available on prescription.",
+    "description": "Mounjaro, produced by Eli Lilly, is a once-weekly injection for weight loss that contains the active ingredient tirzepatide. It works by helping you feel fuller for longer between meals and reducing your appetite. Mounjaro is licensed and approved for weight loss in the UK and is available with a prescription.",
     "priceOptions": [
       { "dosage": "2.5mg/0.6ml", "price": 155.00 },
       { "dosage": "5mg/0.6ml", "price": 155.00 },
@@ -17,7 +17,7 @@
   {
     "id": 2,
     "title": "Wegovy",
-    "description": "Wegovy is a weight loss injection taken once a week to help lose weight and maintain weight loss. It contains the active ingredient semaglutide, which mimics a hormone usually released after eating, helping you to feel fuller while following a diet and exercise plan. 1 single pen of Wegovy contains 4 weekly doses that should be taken at the same time and day each week.",
+    "description": "Wegovy is a weekly weight loss injection designed to help you lose weight and maintain weight loss. It contains semaglutide, an active ingredient that mimics a hormone released after eating, helping you feel fuller while following a diet and exercise plan. Each Wegovy pen contains four weekly doses, which should be taken on the same day and at the same time each week.",
     "priceOptions": [
       { "dosage": "0.25mg", "price": 132.00 },
       { "dosage": "0.5mg", "price": 132.00 },
@@ -31,7 +31,7 @@
   {
     "id": 3,
     "title": "Mysimba",
-    "description": "Mysimba weight loss tablets are a medication used to help people who are overweight lose weight. These tablets are available in the UK and you can request Mysimba online through services like St Helens Online Pharmacy.",
+    "description": "Mysimba tablets are a weight loss medication designed to assist people who are overweight in losing weight. These tablets are available in the UK, and you can request them online through services such as St Helens Online Pharmacy.",
     "priceOptions": [
       { "dosage": "8mg/90mg", "price": 99.00 }
     ],
@@ -41,7 +41,7 @@
   {
     "id": 4,
     "title": "Orlistat",
-    "description": "Orlistat is a prescription-only weight loss aid that contains the active ingredient orlistat. Orlistat works by preventing the absorption of dietary fat into the body. It is the generic version of the branded medication, Xenical. To get the best results, Orlistat should be taken in combination with a low calorie, low fat diet, and exercise.",
+    "description": "Orlistat is a prescription-only weight loss treatment containing the active ingredient orlistat. It works by preventing the absorption of dietary fat in the body. Orlistat is the generic version of the branded medication Xenical. For optimal results, Orlistat should be used in combination with a low-calorie, low-fat diet, and regular exercise.",
     "priceOptions": [
       { "dosage": "120mg", "price": 44.00 }
     ],
@@ -51,7 +51,7 @@
   {
     "id": 5,
     "title": "Liraglutide",
-    "description": "Liraglutide is a medication used primarily to treat type 2 diabetes and obesity. It is a glucagon-like peptide-1 (GLP-1) receptor agonist, which helps regulate blood sugar levels by enhancing insulin secretion, suppressing glucagon release, and slowing gastric emptying. Liraglutide is administered via injection and can also promote weight loss by reducing appetite. It is marketed under brand names such as Victoza for diabetes and Saxenda for weight management. Liraglutide is typically prescribed when lifestyle changes or other medications are insufficient to control blood sugar or aid in weight loss.",
+    "description": "Liraglutide is a medication primarily used to treat type 2 diabetes and obesity. As a glucagon-like peptide-1 (GLP-1) receptor agonist, it helps regulate blood sugar by increasing insulin secretion, reducing glucagon release, and slowing the emptying of the stomach. Administered via injection, liraglutide can also aid in weight loss by reducing appetite. It is marketed under brand names like Victoza for diabetes and Saxenda for weight management. Liraglutide is typically prescribed when lifestyle changes or other treatments have not sufficiently controlled blood sugar or helped with weight loss.",
     "priceOptions": [
       { "dosage": "Out of Stock", "price": 0 }
     ],
