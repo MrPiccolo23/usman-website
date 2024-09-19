@@ -1,5 +1,3 @@
-
-
 import React from 'react';
 import { AiFillStar, AiOutlineStar } from 'react-icons/ai';
 import { MdDeleteOutline } from 'react-icons/md';

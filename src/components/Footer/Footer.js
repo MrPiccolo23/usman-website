@@ -60,6 +60,15 @@ const Footer = () => {
                                 >
                                     {footerLink[1].text}
                                 </a>
+                                {/* Add the clickable 'Contact Us' link */}
+                                <a 
+                                    href="/contact" 
+                                    target="_blank" 
+                                    rel="noopener noreferrer" 
+                                    className="text-sm text-purple-600 hover:underline"
+                                >
+                                    Contact Us
+                                </a>
                             </nav>
                         </div>
                     </div>
