@@ -467,6 +467,34 @@ const ServicesDetailScreen = () => {
                             </div>
                         )}
 
+                        {/* Terms & Conditions section */}
+                        {service.title === 'Terms & conditions' && (
+                            <div className="mt-8">
+                                <h2 className="text-2xl font-semibold text-center mb-4">Terms & Conditions</h2>
+        <div className="border border-gray-200 rounded-lg">
+            {[
+                { question: "Who We Are" },
+                { question: "Our Offerings" },
+                { question: "Fees and Payments" },
+                { question: "Binding Agreement" },
+                { question: "Cancellations and Refunds" },
+                { question: "Privacy Statement and Data Handling" },
+                { question: "Written Correspondence" },
+                { question: "Governing Law and Jurisdiction" },
+                { question: "Complete Understanding" },
+                { question: "Adjustments" }
+            ].map((item, index) => (
+                <AccordionItem
+                    key={index}
+                    question={item.question}
+                    answer={null} // No answer provided for now
+                    isOpen={openIndex === index}
+                    onClick={() => handleToggle(index)}
+                />
+            ))}
+        </div>
+    </div>
+)}
                     </Fade>
                     <Link to="/" className="pt-4 text-purple-500 text-sm hover:underline flex items-center space-x-3"><BsArrowLeft /> <span>Back</span></Link>
                 </div>
