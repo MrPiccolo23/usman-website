@@ -474,7 +474,7 @@ const ServicesDetailScreen = () => {
         <div className="border border-gray-200 rounded-lg">
             {[
                 { question: "Who We Are" },
-                { question: "Our Offerings" },
+                { question: "Our Services" },
                 { question: "Fees and Payments" },
                 { question: "Binding Agreement" },
                 { question: "Cancellations and Refunds" },
