@@ -564,7 +564,7 @@ We may prescribe medications for conditions outside their licensed use ('off-lab
                     answer: `
 • Prices for consultations and medications are clearly stated on our website, inclusive of VAT where applicable.<br>
 • Payment must be made in full before prescriptions are dispensed. Payment is processed after the video consultation.<br>
-• We accept major credit/debit cards via secure payment gateways. For alternative payment methods (e.g., PayPal, cheque, cash), discuss with the pharmacist during your consultation.
+• We accept major credit/debit cards via secure payment gateways. Discuss payment with the pharmacist during your video consultation.
                     `
                 },
                 {
