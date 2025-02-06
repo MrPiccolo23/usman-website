@@ -59,6 +59,26 @@ const ServicesDetailScreen = () => {
                 </ul>`
         },
         {
+            question: "Use of Google Forms",
+            answer: `
+            We use Google Forms to collect patient and user information in two main places on our website:<br><br>
+    
+            <strong>1. St Helens Weight Loss Questionnaire:</strong><br>
+            When you visit our Products page and select a treatment (for example, Mounjaro), clicking the "Request Treatment" button will take you to a Google Form titled "St Helens Weight Loss Questionnaire". You can read more about this in our Medical Questionnaire page. In terms of privacy, Google collects metadata and analytics for this form, as it is a Google service. You can read Google's own Terms and Conditions to learn more about how they handle such data.<br><br>
+            From our side, we only collect the responses you submit (e.g., name, email, address, medical history) so we can provide you with the correct treatment. At the end of this questionnaire, you must agree to the following declaration:<br><br>
+    
+            "You must let us know if your medical situation changes or if you start a different medication before beginning treatment with us.
+            Our pharmacists will take your BMI and medical history into consideration and may prescribe when making a decision about treatment.
+            Prescribed weight loss medication is only effective alongside other lifestyle changes such as eating a low-calorie diet and physical activity.
+            This medication is for my personal use only. I understand and have answered the questions above honestly. I understand the side effects and effectiveness of these treatment options.
+            I have read, understand, and agree to St Helens Pharmacy Group's Terms and Conditions and Privacy and Cookie Policy."<br><br>
+    
+            <strong>2. Contact Page:</strong><br>
+            We also use an embedded Google Form on our contact page. Here, we collect details such as full name, phone number, email, and any message you provide. Again, Google will collect metadata and analytics for this form according to its own policies, but we only use your form responses for legitimate contact reasons.<br><br>
+            Please note that by using these forms, you consent to Google's data practices as well as our own.
+            `
+        },
+        {
             question: "Who Can Access Your Personal Data",
             answer: `
                 We only share your personal data with trusted parties when it is necessary to carry out our business and provide you with our services. These include:
@@ -75,6 +95,7 @@ const ServicesDetailScreen = () => {
                     <li><strong>Senior and IT Staff:</strong> Senior staff and IT personnel within our organisation may access your data if it is essential for performing their duties.</li>
                 </ul>`
         },
+
         {
             question: "Data Retention",
             answer: `We retain your personal data only for as long as necessary to fulfil the purposes outlined in this Privacy Policy. Once the data is no longer needed, we securely delete or anonymise it.`
@@ -468,26 +489,140 @@ const ServicesDetailScreen = () => {
                         )}
 
                         {/* Terms & Conditions section */}
-                        {service.title === 'Terms & conditions' && (
-                            <div className="mt-8">
-                                <h2 className="text-2xl font-semibold text-center mb-4">Terms & Conditions</h2>
+{service.title === 'Terms & conditions' && (
+    <div className="mt-8">
+        <h2 className="text-2xl font-semibold text-center mb-4">Terms & Conditions</h2>
         <div className="border border-gray-200 rounded-lg">
             {[
-                { question: "Who We Are" },
-                { question: "Our Services" },
-                { question: "Fees and Payments" },
-                { question: "Binding Agreement" },
-                { question: "Cancellations and Refunds" },
-                { question: "Privacy Statement and Data Handling" },
-                { question: "Written Correspondence" },
-                { question: "Governing Law and Jurisdiction" },
-                { question: "Complete Understanding" },
-                { question: "Adjustments" }
+                {
+                    question: "Who We Are",
+                    answer: `
+St Helens Pharmacy Group was established in St Helens, Merseyside, in 2012. Starting as a single pharmacy in the town centre, the group has expanded to 20 branches, each committed to providing exemplary patient care within their local communities. Our growth through mergers and acquisitions has led to the addition of our Head Office and a General Pharmaceutical Council (GPhC) Registered Pharmacy Hub, which serves as the operational centre of the group.<br><br>
+In 2024, we launched St Helens Online Pharmacy, dedicated to weight loss treatment. Our online services offer more than just prescription medication—supporting your weight loss journey with treatments such as injections and tablets, along with continuous pharmacist care and guidance.
+                    `
+                },
+                {
+                    question: "Our Services",
+                    answer: `
+<strong>2.1 What We Do</strong><br>
+• We provide medical consultations based on online questionnaires, video consultations, and secure messaging.<br>
+• If our pharmacist determines that treatment is appropriate and you are suitable for remote care, they will issue a prescription. The prescription is dispensed by St Helens Pharmacy Group and can be collected from one of our branches or delivered directly to you. For more details, visit our <span class="text-purple-500">Discreet Collection & Delivery</span> page.<br>
+• You can contact our pharmacist regarding your prescribed treatment through our <span class="text-purple-500">Contact Us</span> page.<br>
+<strong>Note:</strong> St Helens Pharmacy Group is not suitable for emergency situations. In the event of a medical emergency, please call 999 or seek urgent medical care immediately.<br><br>
+
+<strong>2.2 Using Our Services</strong><br>
+By using our website and services, you confirm that you are:<br>
+• Legally capable of entering into binding contracts.<br>
+• At least 18 years old.<br>
+• A resident of Great Britain.<br>
+• Accessing our website from Great Britain.<br><br>
+
+<strong>Acceptable Forms of ID in the UK:</strong><br>
+• Passport (UK or international; unexpired)<br>
+• Driving licence or provisional driving licence (UK or EU; unexpired)<br>
+• Proof of age cards with a PASS logo, such as a Citizen Card or Young Scot card<br>
+• EU national identity card (unexpired)<br><br>
+
+<strong>2.3 How It Works</strong><br>
+1. Complete a Medical Questionnaire: Navigate to Products, select your preferred treatment, and click Request Treatment to begin. More details are available on the Medical Questionnaire page.<br>
+2. Pharmacist Review: After submission, a pharmacist will review your questionnaire and contact you within 24 hours (weekdays) to arrange a video consultation.<br>
+3. Consultation: During the consultation, the pharmacist will:<br>
+- Confirm you are 18 or over and verify your name using acceptable forms of ID listed above.<br>
+- Confirm if the treatment is suitable.<br>
+- Request additional information if needed.<br>
+- Decline treatment if it is not medically appropriate.<br><br>
+
+<strong>Generic Medication & Parallel Imports:</strong><br>
+Generic medication is prescribed based on the active ingredient(s). The dispensed product may differ from the manufacturer shown on our website, and in some cases, a branded version may be provided to ensure timely fulfilment. We cannot guarantee a specific brand for generic medications. Where necessary, we may supply parallel import stock, which is licensed within the EEA and marketed in the UK. Packaging may differ and include foreign languages, but all essential information will be in English.<br><br>
+
+<strong>Prescription & Collection/Delivery:</strong><br>
+If prescribed, you can collect your medication from a branch or arrange delivery. See our <span class="text-purple-500">Discreet Collection & Delivery</span> page for details.<br><br>
+
+<strong>Your Settings:</strong><br>
+You can update your personal information and email preferences by completing the St Helens Weight Loss Questionnaire again or submitting the Contact Us form. To save your progress, you must sign in with a Google account.<br><br>
+
+<strong>For Your Security:</strong><br>
+• Always read product packaging and labels carefully.<br>
+• Check expiration dates if purchasing in advance.<br>
+• Ensure only you have access to your medication.<br>
+• Inform us if you require long shelf-life medication before approval.<br>
+• Verify prescriptions upon receipt. Contact us if incorrect or damaged.<br><br>
+
+<strong>Liability:</strong><br>
+We are not liable for damages resulting from:<br>
+• Incomplete or inaccurate information provided by you.<br>
+• Failure to follow medical advice.<br>
+• Medication effectiveness or side effects.<br>
+Always read the patient information leaflet. Our staff strive to provide advice within current guidelines. Refunds or replacements are not provided for issues outlined above.<br><br>
+
+<strong>2.4 Off-Label Use of Licensed Medication</strong><br>
+We may prescribe medications for conditions outside their licensed use ('off-label') when clinically appropriate. Prescribing decisions are based on current evidence and guidelines.
+                    `
+                },
+                {
+                    question: "Fees and Payments",
+                    answer: `
+• Prices for consultations and medications are clearly stated on our website, inclusive of VAT where applicable.<br>
+• Payment must be made in full before prescriptions are dispensed. Payment is processed after the video consultation.<br>
+• We accept major credit/debit cards via secure payment gateways. For alternative payment methods (e.g., PayPal, cheque, cash), discuss with the pharmacist during your consultation.
+                    `
+                },
+                {
+                    question: "Binding Agreement",
+                    answer: `
+By using our services, you enter into a legally binding agreement with St Helens Pharmacy Group, effective upon order confirmation.
+                    `
+                },
+                {
+                    question: "Cancellations and Refunds",
+                    answer: `
+• Before Prescription Issued: You may cancel your order anytime before the prescription is issued.<br>
+• After Prescription Issued: Cancellations are not possible once processed.<br><br>
+<strong>Returns Policy:</strong><br>
+• We do not accept returns for opened, used, or unpackaged items.<br>
+• Returns for medicines are not accepted unless defective or supplied in error.<br>
+• Return shipping costs are your responsibility unless the item was faulty on receipt.<br><br>
+<strong>Refunds:</strong><br>
+• Refunds are processed within 3 working days of cancellation.<br>
+• Funds may take up to 5 working days to appear in your account.<br>
+• We may refuse orders due to unavailability, payment issues, eligibility concerns, excessive orders, or pricing errors.
+                    `
+                },
+                {
+                    question: "Privacy Statement and Data Handling",
+                    answer: `
+Your privacy is important to us. Please refer to our <span class="text-purple-500">Privacy & Cookies Policy</span> for details on how we collect, use, and protect your data, including information from Google Forms.
+                    `
+                },
+                {
+                    question: "Written Correspondence",
+                    answer: `
+We communicate via email, secure messaging, or video consultations. By using our services, you consent to receive electronic communications.
+                    `
+                },
+                {
+                    question: "Governing Law and Jurisdiction",
+                    answer: `
+These Terms and Conditions are governed by the laws of England and Wales. Disputes will be subject to the exclusive jurisdiction of English and Welsh courts.
+                    `
+                },
+                {
+                    question: "Complete Understanding",
+                    answer: `
+These Terms and Conditions, along with our <span class="text-purple-500">Privacy Policy</span>, constitute the entire agreement between you and St Helens Pharmacy Group.
+                    `
+                },
+                {
+                    question: "Adjustments",
+                    answer: `
+We reserve the right to modify these Terms and Conditions at any time. Changes will be posted on our website, and continued use of our services implies acceptance.
+                    `
+                }
             ].map((item, index) => (
                 <AccordionItem
                     key={index}
                     question={item.question}
-                    answer={null} // No answer provided for now
+                    answer={<span dangerouslySetInnerHTML={{ __html: item.answer }} />}
                     isOpen={openIndex === index}
                     onClick={() => handleToggle(index)}
                 />
@@ -495,6 +630,8 @@ const ServicesDetailScreen = () => {
         </div>
     </div>
 )}
+
+
                     </Fade>
                     <Link to="/" className="pt-4 text-purple-500 text-sm hover:underline flex items-center space-x-3"><BsArrowLeft /> <span>Back</span></Link>
                 </div>
