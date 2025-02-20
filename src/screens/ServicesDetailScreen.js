@@ -495,7 +495,7 @@ const ServicesDetailScreen = () => {
         <div className="border border-gray-200 rounded-lg">
             {[
                 {
-                    question: "Who We Are",
+                    question: "Who we are",
                     answer: `
 St Helens Pharmacy Group was established in St Helens, Merseyside, in 2012. Starting as a single pharmacy in the town centre, the group has expanded to 20 branches, each committed to providing exemplary patient care within their local communities. Our growth through mergers and acquisitions has led to the addition of our Head Office and a General Pharmaceutical Council (GPhC) Registered Pharmacy Hub, which serves as the operational centre of the group.<br><br>
 In 2024, we launched St Helens Online Pharmacy, dedicated to weight loss treatment. Our online services offer more than just prescription medication—supporting your weight loss journey with treatments such as injections and tablets, along with continuous pharmacist care and guidance.
