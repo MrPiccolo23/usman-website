@@ -354,7 +354,7 @@ const ServicesDetailScreen = () => {
                                             <td className="px-6 py-4">People lost <a href="https://www.medicines.org.uk/emc/product/15484/smpc#gref" target="_blank" rel="nofollow noreferrer noopener" className="text-purple-500 underline">up to 22.5%</a> of their starting weight on the 15 mg maintenance dose after 72 weeks.</td>
                                         </tr>
                                         <tr>
-                                            <td className="px-6 py-4">Wegovy</td>
+                                            <td className="px-6 py-4">Wegovy®</td>
                                             <td className="px-6 py-4">People lost <a href="https://www.medicines.org.uk/emc/product/13799/smpc#gref" target="_blank" rel="nofollow noreferrer noopener" className="text-purple-500 underline">up to 15%</a> of their starting weight on the maintenance dose after 68 weeks.</td>
                                         </tr>
                                         <tr>
@@ -415,7 +415,7 @@ const ServicesDetailScreen = () => {
                                         },
                                         {
                                             question: "How do weight loss injections work?",
-                                            answer: `Mounjaro® and Wegovy are the weight loss injections (pens) that we offer. They work by suppressing your appetite, which means they make you feel less hungry and fuller quicker.`
+                                            answer: `Mounjaro® and Wegovy®are the weight loss injections (pens) that we offer. They work by suppressing your appetite, which means they make you feel less hungry and fuller quicker.`
                                         },
                                         {
                                             question: "How do weight loss pills work?",
@@ -429,7 +429,7 @@ const ServicesDetailScreen = () => {
                                             question: "Pharmacist's weight loss advice?",
                                             answer: `How you feel about your weight is very personal. Many people do not need to be concerned about their weight, as they aren’t in immediate danger of health issues.<br><br>
                                             Medically speaking, you are 'overweight' if you have a BMI of more than 25. So, you might be advised by your GP to make lifestyle changes to try and lose weight.<br><br>
-                                            You can use this NHS tool to calculate your BMI.`
+                                            You can use the NHS website to calculate your BMI.`
                                         },
                                         {
                                             question: "What are the health benefits of losing weight?",
@@ -442,7 +442,7 @@ const ServicesDetailScreen = () => {
                                         },
                                         {
                                             question: "Our weight loss clinic?",
-                                            answer: `We can prescribe Orlistat, Xenical, Mounjaro®, Wegovy®, and Saxenda® online. Simply request the treatment you'd like and complete the medical consultation. We’ll use this information to ensure that the treatment is safe and suitable for you.`
+                                            answer: `We can prescribe Orlistat, Xenical, Mounjaro® and Wegovy® online. Simply request the treatment you'd like and complete the medical consultation. We’ll use this information to ensure that the treatment is safe and suitable for you.`
                                         },
                                     ].map((item, index) => (
                                         <AccordionItem
