@@ -384,9 +384,9 @@ const ServicesDetailScreen = () => {
                                             question: "Do I qualify for weight loss injections and pills?",
                                             answer: `
                                                 Weight loss treatments are made for people with high BMIs. Maintaining a healthy weight for you is important, and weight loss injections or pills may help you achieve this.<br><br>
-                                                Here at Online Pharmacist, we currently offer Mounjaro®, Wegovy®, Mysimba, Orlistat and Victoza®(Liraglutide).<br><br>
+                                                Here at Online Pharmacist, we currently offer Mounjaro®, Wegovy®, Mysimba and Orlistat.<br><br>
                                                 <ul className="list-disc pl-5">
-                                                    <li>Mounjaro®, Wegovy® and Victoza®(Liraglutide) are suitable for people with a BMI of over 30 (or 27-30 if you have a risk factor).</li>
+                                                    <li>Mounjaro® and Wegovy® are suitable for people with a BMI of over 30 (or 27-30 if you have a risk factor).</li>
                                                     <li>Orlistat and Mysimba can be prescribed for people with a BMI of over 30 (or 28 if you have a risk factor such as high blood pressure).</li>
                                                 </ul><br>
                                                 To check that you qualify for treatment, we'll ask about other medicines you're taking, and any conditions you have. The online questionnaire is completely confidential, and we'll use the information to ensure the treatment you have requested is safe to take.<br><br>
@@ -415,11 +415,11 @@ const ServicesDetailScreen = () => {
                                         },
                                         {
                                             question: "How do weight loss injections work?",
-                                            answer: `Mounjaro®, Wegovy and Victoza®(Liraglutide) are the weight loss injections (pens) that we offer. They work by suppressing your appetite, which means they make you feel less hungry and fuller quicker.`
+                                            answer: `Mounjaro® and Wegovy are the weight loss injections (pens) that we offer. They work by suppressing your appetite, which means they make you feel less hungry and fuller quicker.`
                                         },
                                         {
                                             question: "How do weight loss pills work?",
-                                            answer: `Mysimba and Orlistat (which both have the same active ingredient, orlistat, so they work in the same way) are prescribed as a tablet. They work by blocking up to a third of the fat in the food you eat from being absorbed into your system.`
+                                            answer: `Orlistat is taken as a tablet and works by blocking up to a third of the fat you eat from being absorbed into your body. Mysimba, on the other hand, contains a combination of naltrexone and bupropion, which helps reduce appetite and cravings. Although both medications can support weight loss, they have different active ingredients and work in different ways.`
                                         },
                                         {
                                             question: "Weight loss treatments and weight management?",

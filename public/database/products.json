@@ -47,15 +47,5 @@
     ],
     "image": "../assets/products/product-4.webp",
     "inStock": true
-  },
-  {
-    "id": 5,
-    "title": "Liraglutide",
-    "description": "Liraglutide is a medication primarily used to treat type 2 diabetes and obesity. As a glucagon-like peptide-1 (GLP-1) receptor agonist, it helps regulate blood sugar by increasing insulin secretion, reducing glucagon release, and slowing the emptying of the stomach. Administered via injection, liraglutide can also aid in weight loss by reducing appetite. It is marketed under brand names like Victoza for diabetes and Saxenda for weight management. Liraglutide is typically prescribed when lifestyle changes or other treatments have not sufficiently controlled blood sugar or helped with weight loss.",
-    "priceOptions": [
-      { "dosage": "Out of Stock", "price": 0 }
-    ],
-    "image": "../assets/products/product-5.webp",
-    "inStock": false
   }
 ]
