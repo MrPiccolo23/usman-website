@@ -6,7 +6,7 @@ import useFetch from '../hooks/useFetch';
 import Accordion from '../components/products/Accordion'; // Import the Accordion component
 
 const ProductDetailScreen = () => {
-  const { title } = useParams();
+  const { title } = useParams(); 
   const [data] = useFetch('products');
 
   const product = data.find(item => item.title === title);
@@ -243,33 +243,53 @@ const ProductDetailScreen = () => {
 
                   <Accordion title="5. Taking Wegovy®">
                     <p>
-                      Wegovy® is injected once a week into your stomach, thigh, or upper arm. You can watch this{' '}
-                      <a href="https://www.wegovy.com/taking-wegovy/how-to-use-the-wegovy-pen.html" target="_blank" rel="noopener noreferrer" className="text-purple-500 underline">
-                        video
+                      Wegovy® is injected once a week into your stomach, thigh, or upper arm. You can watch these{' '}
+                      <a href="https://www.wegovy.co.uk/patientresources.html" target="_blank" rel="noopener noreferrer" className="text-purple-500 underline">
+                        videos on the patient resource page,
                       </a> to learn how to inject yourself. The dose may vary depending on where you are in your treatment.
                     </p>
                   </Accordion>
 
                   <Accordion title="6. How effective is Wegovy®?">
                     <p>
-                      A{' '}
-                      <a href="https://www.medicines.org.uk/emc/product/13801/smpc" target="_blank" rel="noopener noreferrer" className="text-purple-500 underline">
-                        68-week study
-                      </a> showed that Wegovy® users who combined it with a healthy diet and exercise experienced:
-                    </p>
-                    <ul className="list-disc ml-6 mt-2">
-                      <li>85% lost more than 5% of their body weight</li>
-                      <li>66% lost more than 10% of their body weight</li>
-                      <li>48% lost more than 15% of their body weight</li>
-                      <li>30% lost more than 20% of their body weight</li>
-                    </ul>
-                    <p>
-                      In comparison, only{' '}
-                      <a href="https://www.medicines.org.uk/emc/product/2313/smpc#gref" target="_blank" rel="noopener noreferrer" className="text-purple-500 underline">
-                        60% of people lost 5%
-                      </a> with Saxenda®.
-                    </p>
-                  </Accordion>
+    A{' '}
+    <a
+      href="https://www.medicines.org.uk/emc/product/13801/smpc"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="text-purple-500 underline"
+    >
+      68-week clinical trial
+    </a>{' '}
+    found that, when used alongside a healthy diet and exercise, Wegovy® led to:
+  </p>
+  <ul className="list-disc ml-6 mt-2">
+    <li>86% of people losing at least 5% of their body weight</li>
+    <li>69% of people losing at least 10% of their body weight</li>
+    <li>50% of people losing at least 15% of their body weight</li>
+    <li>32% of people losing at least 20% of their body weight</li>
+  </ul>
+  <p>
+    In comparison,{' '}
+    <a
+      href="https://www.medicines.org.uk/emc/product/2313/smpc#gref"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="text-purple-500 underline"
+    >
+      around 60% of people
+    </a>{' '}
+    lost at least 5% of their body weight with Saxenda®.
+  </p>
+  <p>
+  <strong>Summary:</strong> Wegovy® (semaglutide 2.4 mg) is highly effective for weight
+  management. In the STEP trials, patients using Wegovy® alongside lifestyle changes
+  achieved sustained weight loss of around 10–15% or more. Beyond weight reduction,
+  Wegovy® also improves blood pressure, cholesterol, and metabolic function.
+  Recent data show it can significantly reduce major cardiovascular events in
+  people with existing heart disease and obesity—even without diabetes.
+</p>
+</Accordion>
 
                   <Accordion title="7. Weight loss treatment tables">
                     <div className="mt-8">
