@@ -64,7 +64,7 @@ const ServicesDetailScreen = () => {
             We use Google Forms to collect patient and user information in two main places on our website:<br><br>
     
             <strong>1. St Helens Weight Loss Questionnaire:</strong><br>
-            When you visit our Products page and select a treatment (for example, Mounjaro), clicking the "Request Treatment" button will take you to a Google Form titled "St Helens Weight Loss Questionnaire". You can read more about this in our Medical Questionnaire page. In terms of privacy, Google collects metadata and analytics for this form, as it is a Google service. You can read Google's own Terms and Conditions to learn more about how they handle such data.<br><br>
+            When you click on 'See eligibility' button in Home or visit our Products page and select a treatment (for example, Mounjaro), clicking the 'View' and 'Request Treatment' button will take you to a Google Form titled "St Helens Weight Loss Questionnaire". You can read more about this in our Medical Questionnaire page. In terms of privacy, Google collects metadata and analytics for this form, as it is a Google service. You can read Google's own Terms and Conditions to learn more about how they handle such data.<br><br>
             From our side, we only collect the responses you submit (e.g., name, email, address, medical history) so we can provide you with the correct treatment. At the end of this questionnaire, you must agree to the following declaration:<br><br>
     
             "You must let us know if your medical situation changes or if you start a different medication before beginning treatment with us.
@@ -178,7 +178,7 @@ const ServicesDetailScreen = () => {
                             <div className="mt-8">
                                 <h2 className="text-2xl font-semibold text-center mb-4">Summary of the Questionnaire</h2>
                                 <p className="text-gray-500 text-justify">
-                                    You can find the health and weight loss questionnaire in Products {'>'} click the 'view' button for your preferred medicine {'>'} click the 'request treatment' button to start the questionnaire.
+                                    You can find the health and weight loss questionnaire if you click on 'See eligibility' button in Home. Otherwise, in Products {'>'} click the 'view' button for your preferred medicine {'>'} click the 'Request Treatment' button to start the questionnaire.
                                     <br/><br/>
                                     The questionnaire includes:
                                     <ul className="list-disc pl-5">
@@ -198,7 +198,9 @@ const ServicesDetailScreen = () => {
                             <div className="mt-8">
                                 <h2 className="text-2xl font-semibold text-center mb-4">Collection from Pharmacy</h2>
                                 <p className="text-gray-500 text-justify mb-4">
-                                    Collect your weight loss medication from the closest pharmacy to you.
+                                Collect your weight loss medication from the closest pharmacy to you. 
+                                Click on the bullet-pointed link for your preferred pharmacy below to view its full address
+                                (it will open in a new tab).
                                 </p>
 
                                 <div className="mb-8">
@@ -277,7 +279,7 @@ const ServicesDetailScreen = () => {
                                 
                                 <h2 className="text-2xl font-semibold text-center mb-4">Delivery Services</h2>
                                 <p className="text-gray-500 text-justify">
-                                    We prefer you collect your weight loss medicine from one of our branches listed above. Click on link to the close’s pharmacy to you, for example ‘St Helens Pharmacy (130 Duke Street)’ it will open a new tab for the address. If you can’t collect, inform the pharmacist in your video consultation or visit the `Contact page` and fill in the form, one of our drivers will make the delivery.<br/> 
+                                    We prefer you collect your weight loss medicine from one of our branches listed above. Click on a bullet-pointed link to the close’s pharmacy to you, for example ‘St Helens Pharmacy (130 Duke Street)’ it will open a new tab for the address. If you can’t collect, inform the pharmacist in your video consultation or visit the `Contact page` and fill in the form, one of our drivers will make the delivery.<br/> 
                                     Any deliveries are subject to you answering our health and weight loss questionnaire, having a consultation with our pharmacist, and confirmation of payment for your selected medicine.<br/><br/>
                                     
                                     
@@ -390,7 +392,7 @@ const ServicesDetailScreen = () => {
                                                     <li>Orlistat and Mysimba can be prescribed for people with a BMI of over 30 (or 28 if you have a risk factor such as high blood pressure).</li>
                                                 </ul><br>
                                                 To check that you qualify for treatment, we'll ask about other medicines you're taking, and any conditions you have. The online questionnaire is completely confidential, and we'll use the information to ensure the treatment you have requested is safe to take.<br><br>
-                                                To get started simply head to our Products page, click on the view button to your preferred medicine then click on request treatment to start the questionnaire.<br><br>
+                                                To get started simply click on 'See eligibility' button in Home or head to our Products page, click on the 'View' button to your preferred medicine then click on 'Request Treatment' to start the questionnaire.<br><br>
                                                 After the questionnaire, our qualified pharmacist will contact you with a consultation by online video call or by phone. The Pharmacist will always do a video consultation <br><br>
                                                 Before we can prescribe any weight loss medication for you:<br><br>
                                                 <ul className="list-disc pl-5">
@@ -524,7 +526,7 @@ By using our website and services, you confirm that you are:<br>
 • EU national identity card (unexpired)<br><br>
 
 <strong>2.3 How It Works</strong><br>
-1. Complete a Medical Questionnaire: Navigate to Products, select your preferred treatment, and click Request Treatment to begin. More details are available on the Medical Questionnaire page.<br>
+1. Complete a Medical Questionnaire: click on 'See eligibility' button in Home or Navigate to Products, select 'View' for your preferred medicine, and click 'Request Treatment' to begin. More details are available on the Medical Questionnaire page.<br>
 2. Pharmacist Review: After submission, a pharmacist will review your questionnaire and contact you within 24 hours (weekdays) to arrange a video consultation.<br>
 3. Consultation: During the consultation, the pharmacist will:<br>
 - Confirm you are 18 or over and verify your name using acceptable forms of ID listed above.<br>
