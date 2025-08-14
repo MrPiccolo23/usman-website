@@ -19,7 +19,7 @@
     "title": "Wegovy",
     "description": "Wegovy is a weekly weight loss injection designed to help you lose weight and maintain weight loss. It contains semaglutide, an active ingredient that mimics a hormone released after eating, helping you feel fuller while following a diet and exercise plan. Each Wegovy pen contains four weekly doses, which should be taken on the same day and at the same time each week.",
     "priceOptions": [
-      { "dosage": "0.25mg", "price": 132.00 },
+      { "dosage": "0.25mg", "price": 99.99 },
       { "dosage": "0.5mg", "price": 132.00 },
       { "dosage": "1mg", "price": 132.00 },
       { "dosage": "1.7mg", "price": 224.00 },
