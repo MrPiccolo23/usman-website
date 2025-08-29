@@ -4,12 +4,12 @@
     "title": "Mounjaro",
     "description": "Mounjaro, produced by Eli Lilly, is a once-weekly injection for weight loss that contains the active ingredient tirzepatide. It works by helping you feel fuller for longer between meals and reducing your appetite. Mounjaro is licensed and approved for weight loss in the UK and is available with a prescription.",
     "priceOptions": [
-      { "dosage": "2.5mg/0.6ml", "price": 119.99 },
-      { "dosage": "5mg/0.6ml", "price": 134.99 },
-      { "dosage": "7.5mg/0.6ml", "price": 149.99 },
-      { "dosage": "10mg/0.6ml", "price": 149.99 },
-      { "dosage": "12.5mg/0.6ml", "price": 169.99 },
-      { "dosage": "15mg/0.6ml", "price": 174.99 }
+      { "dosage": "2.5mg/0.6ml", "price": 147.99 },
+      { "dosage": "5mg/0.6ml", "price": 177.99 },
+      { "dosage": "7.5mg/0.6ml", "price": 228.99 },
+      { "dosage": "10mg/0.6ml", "price": 252.99 },
+      { "dosage": "12.5mg/0.6ml", "price": 275.99 },
+      { "dosage": "15mg/0.6ml", "price": 299.99 }
     ],
     "image": "../assets/products/product-1.webp",
     "inStock": true
@@ -21,7 +21,7 @@
     "priceOptions": [
       { "dosage": "0.25mg", "price": 99.99 },
       { "dosage": "0.5mg", "price": 119.99 },
-      { "dosage": "1mg", "price": 119.99 },
+      { "dosage": "1mg", "price": 129.99 },
       { "dosage": "1.7mg", "price": 179.99 },
       { "dosage": "2.4mg", "price": 229.99 }
     ],
