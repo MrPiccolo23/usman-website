@@ -8,7 +8,7 @@
       { "dosage": "5mg/0.6ml", "price": 177.99 },
       { "dosage": "7.5mg/0.6ml", "price": 228.99 },
       { "dosage": "10mg/0.6ml", "price": 252.99 },
-      { "dosage": "12.5mg/0.6ml", "price": 275.99 },
+      { "dosage": "12.5mg/0.6ml", "price": 252.99 },
       { "dosage": "15mg/0.6ml", "price": 299.99 }
     ],
     "image": "../assets/products/product-1.webp",
