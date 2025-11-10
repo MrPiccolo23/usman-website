@@ -23,7 +23,7 @@
       { "dosage": "0.5mg", "price": 119.99 },
       { "dosage": "1mg", "price": 129.99 },
       { "dosage": "1.7mg", "price": 179.99 },
-      { "dosage": "2.4mg", "price": 229.99 }
+      { "dosage": "2.4mg", "price": 199.99 }
     ],
     "image": "../assets/products/product-2.webp",
     "inStock": true
